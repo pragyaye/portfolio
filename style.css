@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: kanit;
+    background-color: black;
+}
+#div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100vw;/*takes up full space-view port*/
+    position: fixed;
+    z-index: 11;
+}
+#div1 a{
+    font-family: "kanit";
+    color: rgb(19, 202, 234);
+    text-decoration: none;
+}
+#div2{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: kanit;
+    font-size: 30px;
+}
+#div2 img{
+    z-index: -1;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+}
+#div2 h1{
+    z-index: 1;
+}
+#div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media screen and (max-width: 400px){
+    #div3{
+        flex-direction: column;
+    }
+}
+#div3 img{
+    height: 40vh;
+}
+#div3 .info{
+    width: 60vw;
+}
+#div4{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 0px;
+}
+#div4 h1{
+    margin-bottom: 50px;
+    color: white;
+}
+#div4 img{
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    border-radius: 100%;
+}
+#div4 .skills{
+    width: 80vw;
+}
+#div5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#div5 h1{
+    margin-bottom: 50px;
+    color: rgb(19, 202, 234);
+}
+#div6 h1{
+    color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: kanit;
+}
+#div6 section{
+    height: 50vh;
+    width: 1380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div7{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: kanit;
+    font-size: 20px;
+    margin-top: -50px;
+}
